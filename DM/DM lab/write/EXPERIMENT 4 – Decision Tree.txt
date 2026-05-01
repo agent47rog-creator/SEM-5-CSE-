@@ -1,0 +1,44 @@
+✅ EXPERIMENT 4 – Decision Tree (J48) Implementation
+
+Experiment No 4
+
+Aim:
+
+To implement a Decision Tree using J48 in WEKA.
+
+Theory:
+
+A Decision Tree classifies data by repeatedly splitting it based on the attribute that provides the highest information gain.
+J48 is WEKA’s implementation of C4.5, which improves ID3 by handling continuous data, pruning, and missing values. The theory involves:
+
+Entropy: Measures impurity (disorder).
+
+Information Gain: How much entropy is reduced by splitting on a feature.
+
+Tree Growth: Top-down, greedy selection of best attribute.
+
+Pruning: Removes overfitting branches.
+
+Decision Trees are preferred because they are simple, interpretable, and efficient for large datasets.
+
+Procedure:
+
+Load student.arff into WEKA.
+
+Go to Classify → Choose → J48.
+
+Keep default settings.
+
+Select 10-fold cross-validation.
+
+Click Start to build tree.
+
+View textual and graphical tree.
+
+Output:
+
+Generated decision tree and model accuracy (~69%).
+
+Conclusion:
+
+J48 successfully created a decision tree and classified data based on learned rules.

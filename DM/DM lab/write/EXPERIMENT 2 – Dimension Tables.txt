@@ -1,0 +1,97 @@
+EXPERIMENT 2 – Dimension Tables & Fact Tables Implementation
+
+Experiment No. 2 DM
+
+Aim:
+
+To create and implement all dimension tables and fact tables for the given case study.
+
+Theory:
+
+A data warehouse stores large historical data for analysis. It uses a dimensional model, which includes:
+
+1. Dimension Tables
+
+These are descriptive tables that answer “how, what, where, when, who.”
+Example dimensions:
+
+Time Dimension → day, month, year
+
+Product Dimension → item name, brand, category
+
+Customer Dimension → customer details
+
+Branch Dimension → store location
+
+A dimension table:
+
+Contains textual/ descriptive attributes
+
+Has a surrogate primary key
+
+Is referenced by fact tables
+
+2. Fact Tables
+
+A fact table stores:
+
+Measurements / facts (e.g., quantity, profit, sales amount)
+
+Foreign keys to dimension tables
+
+It represents a business event (like a sale).
+Example fields: customer_id, item_id, branch_id, time_id, qty, profit.
+
+Purpose of Dimensional Modeling:
+
+Speeds up analytical queries
+
+Simplifies reporting
+
+Organizes data into an easy-to-understand star schema
+
+Supports OLAP operations (roll-up, drill-down)
+
+This experiment implements both OLTP tables and then creates corresponding dimension and fact tables to form a data mart.
+
+Procedure:
+
+Create OLTP tables:
+
+CUSTOMER
+
+ITEM
+
+TRANS
+
+ITEM_SOLD
+
+BRANCH
+
+Insert sample data using SQL INSERT commands.
+
+Create dimension tables using CREATE TABLE statements:
+
+Customer Dimension
+
+Item Dimension
+
+Branch Dimension
+
+Time Dimension
+
+Create FACT TABLE (Sales_Fact) that references all dimensions.
+
+Insert transaction data into the fact table.
+
+Output:
+
+Dimension tables (Customer, Item, Branch, Time) created successfully.
+
+Fact table (Sales_Fact) created and linked using foreign keys.
+
+Complete star schema for the case study.
+
+Conclusion:
+
+Dimension and fact tables were successfully implemented, forming a functional data mart that supports analytical operations in a data warehouse.

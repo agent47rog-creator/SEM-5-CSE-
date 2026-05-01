@@ -1,0 +1,35 @@
+EXPERIMENT 7 – Agglomerative Hierarchical Clustering
+
+Experiment 7 DM
+
+Aim:
+
+To demonstrate Agglomerative Clustering using WEKA.
+
+Theory:
+
+Hierarchical clustering builds clusters step-by-step.
+Agglomerative = bottom-up → each point starts as individual cluster → close clusters are merged repeatedly.
+It uses distance metrics like Euclidean distance.
+The output is visualized through a dendrogram, showing how clusters merge at each level.
+This method is useful when the number of clusters is unknown beforehand.
+
+Procedure:
+
+Convert dataset to ARFF format.
+
+Load in WEKA → Cluster tab.
+
+Choose HierarchicalClusterer.
+
+Set linkage/parameters.
+
+Click Start to generate dendrogram.
+
+Output:
+
+Hierarchical cluster structure showing merging order.
+
+Conclusion:
+
+Agglomerative clustering successfully formed a natural hierarchy of clusters.

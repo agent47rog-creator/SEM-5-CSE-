@@ -1,0 +1,43 @@
+EXPERIMENT 8 – APRIORI (Association Rule Mining)
+
+Experiment no 8 DM
+
+Aim:
+
+To implement Apriori algorithm using WEKA.
+
+Theory:
+
+Apriori discovers frequent itemsets and builds association rules.
+It works level-wise by generating candidate sets and pruning those with low support.
+Important concepts:
+
+Support: Frequency of an itemset
+
+Confidence: Strength of rule
+
+Lift: Measure of dependency
+
+Used in market basket analysis to find relationships like:
+“If a user buys item A, they are likely to buy item B.”
+
+Procedure:
+
+Load test.arff into WEKA.
+
+Click Associate tab.
+
+Choose Apriori (default).
+
+Adjust support/confidence if needed.
+
+Run to generate rules.
+
+Output:
+
+Association rules like:
+AdmissionYear=2005 → Course=CSE (support=..., confidence=...)
+
+Conclusion:
+
+Apriori generated meaningful rules showing hidden relationships in the dataset.

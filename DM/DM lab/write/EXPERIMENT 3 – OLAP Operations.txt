@@ -1,0 +1,76 @@
+EXPERIMENT 3 – OLAP Operations in SQL
+
+
+Aim:
+
+To implement OLAP operations in SQL for the given case study.
+
+Theory:
+
+OLAP (Online Analytical Processing) allows managers and analysts to view data in multiple perspectives for decision-making. It operates on multidimensional data represented through cubes.
+
+OLAP supports fast and interactive analysis using operations like:
+
+1. Roll-Up (Drill-Up)
+
+Moves from detailed data to higher-level summary
+
+Example: Product → Category → Total Sales
+
+2. Drill-Down (Roll-Down)
+
+Opposite of roll-up
+
+Moves from summary to detailed level
+
+3. Slice
+
+Selects one specific value of a dimension
+
+Example: Viewing only sales for “2024”
+
+4. Dice
+
+Filters on multiple dimensions
+
+Example: Sales for (Region = North AND Year = 2023)
+
+5. Pivot (Rotate)
+
+Reorients the multidimensional cube for better visualization
+
+Converts rows → columns or vice versa
+
+6. Drill Across / Drill Through
+
+Drill Across → Uses more than one fact table
+
+Drill Through → Moves from cube to raw relational tables
+
+SQL enables OLAP operations using:
+
+GROUP BY
+
+ROLLUP
+
+CUBE
+
+GROUPING SETS
+
+These allow generation of subtotals, grand totals, and multidimensional summaries.
+
+Output:
+
+Roll-up generated hierarchical summaries (Region → Region totals → Grand Total).
+
+Cube generated all possible combinations and totals.
+
+Grouping sets returned customized totals.
+
+Slice and dice filtered the data.
+
+Drill-down showed detailed entries.
+
+Conclusion:
+
+OLAP operations were successfully executed in SQL, demonstrating multidimensional data analysis such as summarization, filtering, and hierarchical exploration.

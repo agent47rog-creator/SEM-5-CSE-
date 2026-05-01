@@ -1,0 +1,42 @@
+ EXPERIMENT 6 – K-Means Clustering
+
+Experiment No 6
+
+Aim:
+
+To implement K-means clustering.
+
+Theory:
+
+K-means is an unsupervised algorithm that groups data into k clusters based on similarity.
+Process:
+
+Choose k initial centroids.
+
+Assign each point to the nearest centroid.
+
+Recompute centroids.
+
+Repeat until convergence.
+
+Clustering is useful in segmentation, pattern discovery, and anomaly detection. It aims to minimize intra-cluster distance and maximize inter-cluster separation.
+
+Procedure:
+
+Load dataset in WEKA → Cluster tab.
+
+Choose SimpleKMeans.
+
+Set number of clusters k.
+
+Run clustering.
+
+View assignments and centroids.
+
+Output:
+
+Cluster memberships and updated centroid values.
+
+Conclusion:
+
+K-means successfully grouped similar items into meaningful clusters.

@@ -1,0 +1,40 @@
+EXPERIMENT 9 – PageRank Algorithm
+
+Experiment No 9
+
+Aim:
+
+To implement and analyze PageRank using WEKA or external computation.
+
+Theory:
+
+PageRank measures importance of web pages based on incoming links.
+If a page is linked by important pages, its rank increases.
+Formula uses:
+
+Damping factor (0.85)
+
+Teleportation probability
+
+Outgoing link distribution
+
+Applications: search engines, network analysis, ranking systems.
+
+Procedure:
+
+Create edges.arff containing directed links.
+
+Load into WEKA Preprocess tab.
+
+Apply PageRank filter OR compute externally using Python NetworkX.
+
+View PageRank scores for each node.
+
+Output:
+
+Example:
+C = 0.38, A = 0.33, B = 0.18, D = 0.11.
+
+Conclusion:
+
+PageRank successfully ranked nodes based on link structure and importance.

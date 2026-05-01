@@ -1,0 +1,37 @@
+EXPERIMENT 5 – Naïve Bayes Implementation
+
+Experiment No 5
+
+Aim:
+
+To implement Naïve Bayes using any programming language or WEKA.
+
+Theory:
+
+Naïve Bayes is based on Bayes Theorem, which calculates the probability of a class given feature values. It assumes all features are independent, making it simple and computationally fast.
+Key concepts:
+
+Prior probability: P(Class)
+
+Likelihood: P(Features | Class)
+
+Posterior probability: Final computed probability
+Naïve Bayes is widely used in spam filtering, sentiment analysis, and text classification.
+
+Procedure:
+
+Load dataset into WEKA.
+
+Click Classify → Choose → Naïve Bayes.
+
+Train using cross-validation.
+
+Test and observe probability outputs.
+
+Output:
+
+Class predictions with probability distribution for each instance.
+
+Conclusion:
+
+Naïve Bayes gave efficient and accurate classification due to its probabilistic model.
